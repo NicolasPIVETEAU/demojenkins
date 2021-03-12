@@ -33,4 +33,15 @@ public class CalculatorTest {
         int actual = calc.sub(a, b);
         assertEquals(-2, actual);
     }
+
+    @Test
+    public void testSMul() {
+        int a = 1;
+        int b = 3;
+        Calculator calc = new Calculator();
+        int actual = calc.mul(a, b);
+        assertEquals(3, actual);
+    }
+
+
 }
