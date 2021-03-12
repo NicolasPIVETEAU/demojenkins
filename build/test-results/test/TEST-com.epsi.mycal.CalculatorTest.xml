@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.epsi.mycal.CalculatorTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2021-03-11T13:42:21" hostname="DESKTOP-6T5IG1K" time="0.002">
+  <properties/>
+  <testcase name="testAdd" classname="com.epsi.mycal.CalculatorTest" time="0.002"/>
+  <testcase name="testSub" classname="com.epsi.mycal.CalculatorTest" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
