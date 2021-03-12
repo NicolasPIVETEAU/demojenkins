@@ -1,5 +1,6 @@
 package com.epsi.mycal;
 
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Application {
@@ -7,7 +8,7 @@ public class Application {
    public static void main(String[] args) {
 
       System.out.println("Bienvenue dans la calculatrice !");
-      Scanner scanner = new Scanner(System.in);
+      Scanner scanner = new Scanner(System.in, StandardCharsets.UTF_8);
 
       System.out.println("\n Please enter two numbers");
       System.out.println("\n First numbers : ");
@@ -22,7 +23,7 @@ public class Application {
       double resultdiv = 0;
 
 
-      switch (operation){
+      switch (operation) {
          case "*":
             result = calculator.mul(firstNumber, secondNumber);
             break;
@@ -35,14 +36,14 @@ public class Application {
          case "-":
             result = calculator.sub(firstNumber, secondNumber);
             break;
-         default :
+         default:
             System.out.println("Please select a valid operator");
             break;
       }
 
-      if(operation.equals("/")){
+      if (operation.equals("/")) {
          System.out.println("Your result :" + resultdiv);
-      }else{
+      } else {
          System.out.println("Your result :" + result);
       }
 

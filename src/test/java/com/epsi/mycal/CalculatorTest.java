@@ -48,8 +48,8 @@ public class CalculatorTest {
       int a = 4;
       int b = 2;
       Calculator calc = new Calculator();
-      double actual = calc.div(a, b);
-      assertEquals(2, (int) actual);
+      int actual = calc.div(a, b);
+      assertEquals(2,actual);
    }
 
    @Test

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<BugCollection version="4.2.1" sequence="0" timestamp="1615545437356" analysisTimestamp="1615545437358" release="unspecified">
+  <Project projectName="demoJenkins (spotbugsMain)">
+    <Jar>C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\build\classes\java\main\com\epsi\mycal\Application.class</Jar>
+    <Jar>C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\build\classes\java\main\com\epsi\mycal\Calculator.class</Jar>
+    <SrcDir>C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\src\main\resources</SrcDir>
+    <SrcDir>C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\src\main\java</SrcDir>
+  </Project>
+  <Errors errors="0" missingClasses="0"></Errors>
+  <FindBugsSummary timestamp="Fri, 12 Mar 2021 11:37:17 +0100" total_classes="2" referenced_classes="25" total_bugs="0" total_size="61" num_packages="1" java_version="11.0.9" vm_version="11.0.9+7-LTS" cpu_seconds="2.89" clock_seconds="0.90" peak_mbytes="374.84" alloc_mbytes="512.00" gc_seconds="0.01">
+    <FileStats path="com/epsi/mycal/Application.java" bugCount="0" size="30"/>
+    <FileStats path="com/epsi/mycal/Calculator.java" bugCount="0" size="31"/>
+    <PackageStats package="com.epsi.mycal" total_bugs="0" total_types="2" total_size="61">
+      <ClassStats class="com.epsi.mycal.Application" sourceFile="Application.java" interface="false" size="30" bugs="0"/>
+      <ClassStats class="com.epsi.mycal.Calculator" sourceFile="Calculator.java" interface="false" size="31" bugs="0"/>
+    </PackageStats>
+    <FindBugsProfile>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassInfoAnalysisEngine" totalMilliseconds="281" invocations="477" avgMicrosecondsPerInvocation="590" maxMicrosecondsPerInvocation="103891" standardDeviationMicrosecondsPerInvocation="4932"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FunctionsThatMightBeMistakenForProcedures" totalMilliseconds="85" invocations="25" avgMicrosecondsPerInvocation="3413" maxMicrosecondsPerInvocation="69768" standardDeviationMicrosecondsPerInvocation="13681"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FindNoSideEffectMethods" totalMilliseconds="79" invocations="25" avgMicrosecondsPerInvocation="3163" maxMicrosecondsPerInvocation="50600" standardDeviationMicrosecondsPerInvocation="9804"/>
+      <ClassProfile name="edu.umd.cs.findbugs.classfile.engine.ClassDataAnalysisEngine" totalMilliseconds="60" invocations="479" avgMicrosecondsPerInvocation="126" maxMicrosecondsPerInvocation="21331" standardDeviationMicrosecondsPerInvocation="1142"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.FieldItemSummary" totalMilliseconds="43" invocations="25" avgMicrosecondsPerInvocation="1749" maxMicrosecondsPerInvocation="12305" standardDeviationMicrosecondsPerInvocation="2829"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.ReflectiveClasses" totalMilliseconds="22" invocations="25" avgMicrosecondsPerInvocation="907" maxMicrosecondsPerInvocation="20391" standardDeviationMicrosecondsPerInvocation="3979"/>
+      <ClassProfile name="edu.umd.cs.findbugs.detect.BuildStringPassthruGraph" totalMilliseconds="22" invocations="25" avgMicrosecondsPerInvocation="903" maxMicrosecondsPerInvocation="18004" standardDeviationMicrosecondsPerInvocation="3498"/>
+      <ClassProfile name="edu.umd.cs.findbugs.util.TopologicalSort" totalMilliseconds="22" invocations="441" avgMicrosecondsPerInvocation="50" maxMicrosecondsPerInvocation="3275" standardDeviationMicrosecondsPerInvocation="198"/>
+    </FindBugsProfile>
+  </FindBugsSummary>
+  <ClassFeatures></ClassFeatures>
+  <History></History>
+</BugCollection>
