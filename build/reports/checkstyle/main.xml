@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.3">
+<file name="C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\src\main\java\com\epsi\mycal\Application.java">
+<error line="5" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="6" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="7" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\src\main\java\com\epsi\mycal\Calculator.java">
+<error line="5" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="5" column="24" severity="warning" message="Parameter name &apos;a&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="5" column="31" severity="warning" message="Parameter name &apos;b&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="6" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="6" column="17" severity="warning" message="WhitespaceAround: &apos;+&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="6" column="18" severity="warning" message="WhitespaceAround: &apos;+&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="7" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="24" severity="warning" message="Parameter name &apos;a&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="9" column="31" severity="warning" message="Parameter name &apos;b&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="10" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="17" severity="warning" message="WhitespaceAround: &apos;-&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" column="18" severity="warning" message="WhitespaceAround: &apos;-&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="24" severity="warning" message="Parameter name &apos;a&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="13" column="31" severity="warning" message="Parameter name &apos;b&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="14" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="17" severity="warning" message="WhitespaceAround: &apos;*&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="18" severity="warning" message="WhitespaceAround: &apos;*&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\src\main\java\com\epsi\mycal\Application.java">
+<error line="5" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="6" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="7" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+<file name="C:\Users\Nicolas Piveteau\Desktop\Java\demoJenkins\src\main\java\com\epsi\mycal\Calculator.java">
+<error line="5" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="5" column="24" severity="warning" message="Parameter name &apos;a&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="5" column="31" severity="warning" message="Parameter name &apos;b&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="6" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="6" column="17" severity="warning" message="WhitespaceAround: &apos;+&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="6" column="18" severity="warning" message="WhitespaceAround: &apos;+&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="7" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="9" column="24" severity="warning" message="Parameter name &apos;a&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="9" column="31" severity="warning" message="Parameter name &apos;b&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="10" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="10" column="17" severity="warning" message="WhitespaceAround: &apos;-&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="10" column="18" severity="warning" message="WhitespaceAround: &apos;-&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="11" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" severity="warning" message="method def modifier au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="13" column="24" severity="warning" message="Parameter name &apos;a&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="13" column="31" severity="warning" message="Parameter name &apos;b&apos; must match pattern &apos;^[a-z][a-z0-9][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.ParameterNameCheck"/>
+<error line="14" severity="warning" message="Le fils de method def au niveau d&apos;identation 8 n&apos;est pas indenté correctement (4)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+<error line="14" column="17" severity="warning" message="WhitespaceAround: &apos;*&apos; is not preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="14" column="18" severity="warning" message="WhitespaceAround: &apos;*&apos; is not followed by whitespace. Empty blocks may only be represented as {} when not part of a multi-block statement (4.1.3)" source="com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck"/>
+<error line="15" severity="warning" message="method def rcurly au niveau d&apos;indentation 4 n&apos;est pas indenté correctement (2)" source="com.puppycrawl.tools.checkstyle.checks.indentation.IndentationCheck"/>
+</file>
+</checkstyle>
