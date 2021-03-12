@@ -35,7 +35,7 @@ public class CalculatorTest {
    }
 
    @Test
-   public void testSMul() {
+   public void testMul() {
       int a = 1;
       int b = 3;
       Calculator calc = new Calculator();
@@ -43,5 +43,28 @@ public class CalculatorTest {
       assertEquals(3, actual);
    }
 
+   @Test
+   public void testdiv() {
+      int a = 4;
+      int b = 2;
+      Calculator calc = new Calculator();
+      double actual = calc.div(a, b);
+      assertEquals(2, (int) actual);
+   }
 
+   @Test
+   public void testIsPremier() {
+      int a = 1;
+      Calculator calc = new Calculator();
+      boolean actual = calc.isPremier(a);
+      assertTrue(actual);
+   }
+
+   @Test
+   public void testIsPair() {
+      int a = 4;
+      Calculator calc = new Calculator();
+      boolean actual = calc.isPair(a);
+      assertTrue(actual);
+   }
 }
